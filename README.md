@@ -27,7 +27,7 @@ Docker commands and info in short
 - Each instruction in a Dockerfile creates a layer in the image. When you change the Dockerfile and rebuild the image, only those layers which have changed are rebuilt. This is part of what makes images so lightweight, small, and fast, when compared to other virtualization technologies.
 - When a container is removed, any changes to its state that aren't stored in persistent storage disappear.
 - By default, containers can connect to external networks using the host machine's network connection.
-
+### AddOn
 - Docker is written in the Go programming language.
 - Docker uses namespaces to create isolated workspaces called containers, with each container receiving its own set of namespaces upon creation.
 - These namespaces provide a layer of isolation. Each aspect of a container runs in a separate namespace and its access is limited to that namespace.
